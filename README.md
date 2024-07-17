@@ -25,7 +25,7 @@ npm ci
 
 Configure your own ```.env``` file, as shown in the ```.env.example``` file.
 Create a ```.env``` file and add your ```ETHEREUM_RPC_URL```, ```ETHEREUM_TESTNET_RPC_URL``` and ```WALLET_PRIVATE_KEY``` to be able to run this project.
-To create your ```ETHEREUM_RPC_URL``` and ```ETHEREUM_TESTNET_RPC_URL``` you can use [Alchemy](https://www.alchemy.com/) or [nfura](https://www.infura.io/).
+To create your ```ETHEREUM_RPC_URL``` and ```ETHEREUM_TESTNET_RPC_URL``` you can use [Alchemy](https://www.alchemy.com/) or [Infura](https://www.infura.io/).
 You ```WALLET_PRIVATE_KEY``` can be found in your Metamask Wallet.
 
 ### Step 4
