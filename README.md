@@ -3,7 +3,7 @@
 ### Step 1
 
 ```shell
-git clone https://
+git clone https://github.com/natashagp/tri-arb-flashlon-uniswap-v3.git
 ```
 
 ### Step 2
