@@ -8,6 +8,14 @@ git clone https://github.com/natashagp/tri-arb-flashlon-uniswap-v3.git
 
 ### Step 2
 
+Change to directory tri-arb-flashlon-uniswap-v3
+
+```shell
+cd tri-arb-flashlon-uniswap-v3
+```
+
+### Step 3
+
 Install packages as a clean install. This is important to ensure that your versions are exactly the same as in this project.
 ```shell
 npm ci
