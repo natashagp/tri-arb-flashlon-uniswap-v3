@@ -1,13 +1,27 @@
-# Sample Hardhat Project
+# Flashloan with Triangular Arbitrage in Uniswap V3
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+### Step 1
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+git clone https://
 ```
+
+### Step 2
+
+Install packages as a clean install. This is important to ensure that your versions are exactly the same as in this project.
+```shell
+npm ci
+```
+
+### Step 3
+
+Configure your own ```.env``` file, as shown in the ```.env.example``` file.
+Create a ```.env``` file and add your ```ETHEREUM_RPC_URL```, ```ETHEREUM_TESTNET_RPC_URL``` and ```WALLET_PRIVATE_KEY``` to be able to run this project.
+To create your ```ETHEREUM_RPC_URL``` and ```ETHEREUM_TESTNET_RPC_URL``` you can use [Alchemy](https://www.alchemy.com/) or [nfura](https://www.infura.io/).
+You ```WALLET_PRIVATE_KEY``` can be found in your Metamask Wallet.
+
+### Step 4
+```shell
+npx hardhat test
+```
+You will likely see a "Arbitrage not profitable" error come up, if the arbitrage is not profitable. This is the most common result and in fact means the code is working.
